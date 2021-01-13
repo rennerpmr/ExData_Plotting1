@@ -5,7 +5,7 @@ if (!file.exists("electric.zip")){
 }
 
 #unzip into electric dataset
-if (!file.exists("UCI HAR Dataset")) { 
+if (!file.exists("household_power_consumption.txt")) { 
   unzip("electric.zip") 
 }
 
